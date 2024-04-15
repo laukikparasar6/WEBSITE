@@ -1,0 +1,145 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+body{
+  background-color: rgb(0, 0, 0);
+}
+.navbar {
+  background-color: #000000;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border: 3px solid white;
+  border-radius: 50px;
+  border-bottom: 0px;
+  border-top: 50px;
+}
+
+.navbar-link {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  align-items: center;
+  cursor: default;
+  font-size: 25px;
+}
+
+.navbar h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+/* contact-area */
+.profile {
+  display: flex;
+  align-items: center;
+  min-height: 40vh;
+  height: 70vh;
+  margin-top: 50px;
+}
+
+.profile h2 {
+  margin: 10px;
+  text-transform: uppercase;
+
+}
+
+.profile h3 {
+  margin: 10px;
+}
+
+.profile p {
+  margin: 10px;
+}
+
+.profile p:first-child {
+  font-size: larger;
+  text-transform: uppercase;
+  color: chartreuse;
+}
+
+/* IMG */
+
+
+.data {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pimage{
+  display: block;
+  width: 400px;
+  height: auto;
+}
+
+.about{
+  text-align: center;
+  color: white;
+}
+
+.info{
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+}
+
+.skills-wrapper{
+  margin-top: 64px;
+}
+
+.skills{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  justify-content: center;
+}
+
+.skill{
+  background-color: white;
+  color: black;
+  padding: 16px 24px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.project{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+.projectimage{
+  display: block;
+  width: 600px;
+  height: auto;
+}
+
+.projectdes{
+  padding: 60px 80px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.projectname{
+  font-size: 32px;
+}
